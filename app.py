@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image 
 img = Image.open("bmi.png")
-st.image(img,width=400)
+st.image(img,width=300)
 st.title(':red[ Welcome to BMI Calculator!!!]')
 
 st.markdown("### Body mass index (BMI) is a tool that healthcare providers use to estimate the amount of body fat by using your height and weight measurements")
